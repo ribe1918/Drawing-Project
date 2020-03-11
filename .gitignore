@@ -1,0 +1,8 @@
+*.json
+*.png
+.env
+node_modules
+vue.config.js
+babel.config.js
+yarn.*
+start.cmd
