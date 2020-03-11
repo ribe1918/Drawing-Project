@@ -9,7 +9,7 @@ require('dotenv').config()
 const connect = require('./model')
 
 const indexRouter = require('./routes/index')
-const todoRouter = require('./routes/todo')
+const todoRouter = require('./routes/rest')
 
 connect()
 

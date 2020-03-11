@@ -1,4 +1,4 @@
-const Todo = require('../model/todo')
+const Todo = require('../model/schema')
 
 exports.index = (req, res, next) => {
   Todo.find({}, (err, todos) => {

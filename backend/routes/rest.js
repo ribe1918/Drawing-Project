@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const todosController = require('../controller/todosController')
+const todosController = require('../controller/restController')
 
 // READ
 router.get('/', todosController.index)
